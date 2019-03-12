@@ -28,8 +28,8 @@ class SongList extends Component {
 
 // that state here contains all the state in store
 const mapStateToProps = state => {
-  console.log(state);
-  return { song: state.songs };
+  //console.log(state);
+  return { song: state.song };
 };
 
 export default connect(
